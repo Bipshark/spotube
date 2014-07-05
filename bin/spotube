@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+require 'spotube'
+
+lookup = Spotube::Lookup.new
+lookup.lookup
