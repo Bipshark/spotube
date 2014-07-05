@@ -1,28 +1,27 @@
 # Spotube
 
-TODO: Write a gem description
+Fetches a result from a given Spotify track, on YouTube and copies it to the OSX clipboard.
 
 ## Installation
 
-Add this line to your application's Gemfile:
+Install gem:
 
-    gem 'spotube'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install spotube
+    gem install spotube
 
 ## Usage
 
-TODO: Write usage instructions here
+The application works with both Spotify URIs...
+
+    spotube spotify:track:31mVuR0oYHVPzZwCbTYMmu
+
+As well as HTTP links
+
+    spotube http://open.spotify.com/track/31mVuR0oYHVPzZwCbTYMmu
+    
 
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/spotube/fork )
+1. Fork it ( https://github.com/bipshark/spotube/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
